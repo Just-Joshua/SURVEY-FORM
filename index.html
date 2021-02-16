@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+  </head>
+  <body>
+
+    <div class="heading"><h1>Survey Form
+    </h1></div>
+
+    <section class="container">
+      <form name="contact" method="POST" data-netlify="true"> 
+      <div class="form">
+
+        <div><input type="text" name="name" placeholder="Name" required></div>
+
+        <div><input type="email" name="email" placeholder="Email" required></div>
+
+        <div><input type="text" name="age" placeholder="Age" ></div>
+      </div>
+
+<div class="radio">
+  <p>Would you recommend this platform to a friend?</p>
+  <input type="radio" id="male" name="gender" value="yes">
+<label for="male">Yes</label><br>
+<input type="radio" id="female" name="gender" value="no">
+<label for="female">No</label><br>
+<input type="radio" id="other" name="gender" value="maybe">
+<label for="other">Maybe</label>
+</div>
+
+<div class="checkbox">
+  <fieldset>
+    <legend>What would you like to see improved?</legend>
+    
+    <input id="one" type="checkbox" name="like">
+    <label for="one" type="checkbox" name="like">front-end project</label><br>
+    <input id="two" type="checkbox" name="like">
+    <label for="two" type="checkbox" name="like">Back-end project</label><br>
+    <input id="three" type="checkbox" name="like">
+    <label for="three" type="checkbox" name="like">Data visualization</label><br>
+    <input id="four" type="checkbox" name="like">
+    <label for="four" type="checkbox" name="like">Challenges</label><br>
+    <input id="fifth" type="checkbox" name="like">
+    <label for="fifth" type="checkbox" name="like">open source community</label><br>
+    <input id="sixth" type="checkbox" name="like">
+    <label for="sixth" type="checkbox" name="like">Gitter help rooms</label><br>
+    <input id="seventh" type="checkbox" name="like">
+    <label for="seventh" type="checkbox" name="like">Videos</label><br>
+    <input id="eight" type="checkbox" name="like">
+    <label for="eight" type="checkbox" name="like">City meetups</label><br>
+    <input id="nine" type="checkbox" name="like">
+    <label for="nine" type="checkbox" name="like">Wiki</label><br>
+    <input id="tenth" type="checkbox" name="like">
+    <label for="tenth" type="checkbox" name="like">Forum</label><br>
+    <input id="eleven" type="checkbox" name="like">
+    <label for="eleven" type="checkbox" name="like">Additional courses</label><br>
+    </fieldset>
+    </div>
+    <button type="submit">submit</button>
+  </form>
+</div>
+
+    </section>
+
+  </body>
+  </html>
